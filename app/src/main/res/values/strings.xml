@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">Lain</string>
+    <string name="no_model">No model loaded</string>
+    <string name="welcome">"Welcome to Lain, this info only shows when you have not downloaded any model.\n**Download Model**\nYou need to download a model to start using. Click the **Settings** button on the top bar, select a model, and wait for the system to complete the download. You can check the download progress in the notification bar. \nAfter the download is complete, please click the **Use** button and then return here to start chatting immediately.\n**Guide**\n- Click the share button to export and share the conversation content.\n- To clear the conversation, **tap** the refresh button \"↻\". This will not reload the current model.\n- **Long press** the refresh button \"↻\" to force reload the model or exit the app and reopen it.\nIt is very important to choose a suitable model file. We recommend starting with the smallest model for faster performance on your phone. Need suggestions? You can start chatting with Qwen 1.8B or Gemma 2B. "</string>
+    <string name="initialized">How can I assist you today?</string>
+    <string name="reloaded">Model %s reloaded</string>
+    <string name="load_failed">Failed to load model %s. Trying to re-download this model.</string>
+    <string name="share">Share to</string>
+    <string name="generating">Generating reply…</string>
+    <string name="status">Status</string>
+    <string name="message">Message</string>
+    <string name="loaded">Model %s loaded</string>
+    <string name="i8mm_desc">这些模型是 Q4 i8mm 量化模型 (Q4_0_4_8)，您的处理器支持 i8mm 指令集，使用这些模型速度最快。</string>
+    <string name="in_use">"正在使用: "</string>
+    <string name="model_list_info">提示</string>
+    <string name="neon_desc">这些模型是 Q4 量化的 ARM NEON 模型，为大部分 ARM 处理器提供了更快的速度。</string>
+</resources>
